@@ -36,7 +36,10 @@ public class PlayerController : MonoBehaviour {
                 this.transform.position = new Vector3(0, 2, 0);
             }
         }
-	}
+
+        
+        Debug.DrawRay(transform.position + transform.forward * 1f, transform.forward * 3, Color.red);
+    }
 
 
 }
