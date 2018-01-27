@@ -36,6 +36,6 @@ public class Spawner : MonoBehaviour {
     void SpawnCable()
     {
         //vector3 position will change
-        Instantiate(singleCable1, new Vector3(0, 0, transform.parent.position.z + 154f), singleCable1.rotation);
+        Instantiate(singleCable1, new Vector3(transform.parent.position.x, transform.parent.position.y, transform.parent.position.z + 8), singleCable1.rotation);
     }
 }

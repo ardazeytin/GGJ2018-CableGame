@@ -176,7 +176,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1706516554212720, guid: c8dc2fc490b7e0843a717b0a03ca2adb, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65747894539472964, guid: c8dc2fc490b7e0843a717b0a03ca2adb,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 65747894539472964, guid: c8dc2fc490b7e0843a717b0a03ca2adb,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8dc2fc490b7e0843a717b0a03ca2adb, type: 2}
@@ -513,7 +523,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1706516554212720, guid: c8dc2fc490b7e0843a717b0a03ca2adb, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65747894539472964, guid: c8dc2fc490b7e0843a717b0a03ca2adb,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 65747894539472964, guid: c8dc2fc490b7e0843a717b0a03ca2adb,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8dc2fc490b7e0843a717b0a03ca2adb, type: 2}
@@ -582,7 +602,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1706516554212720, guid: c8dc2fc490b7e0843a717b0a03ca2adb, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65747894539472964, guid: c8dc2fc490b7e0843a717b0a03ca2adb,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 65747894539472964, guid: c8dc2fc490b7e0843a717b0a03ca2adb,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8dc2fc490b7e0843a717b0a03ca2adb, type: 2}
