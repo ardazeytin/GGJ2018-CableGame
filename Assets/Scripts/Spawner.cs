@@ -18,12 +18,14 @@ public class Spawner : MonoBehaviour {
     public GameObject singleCable5;
     public GameObject hitBox;
 
+    //spawn counter
+    public static int spawnCounter = 0;
+
     void Start ()
     {
-
+        
     }
 	
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
@@ -41,5 +43,11 @@ public class Spawner : MonoBehaviour {
        GameObject cable1Clone = Instantiate(singleCable1, new Vector3(nodePoint1.position.x, nodePoint1.position.y, hitboxClone.transform.position.z ), Quaternion.Euler(0,0,0));
        GameObject cable2Clone = Instantiate(singleCable2, new Vector3(nodePoint2.position.x, nodePoint2.position.y, hitboxClone.transform.position.z ), Quaternion.Euler(0, 0, 0));
        GameObject cable3Clone = Instantiate(singleCable3, new Vector3(nodePoint3.position.x, nodePoint3.position.y, hitboxClone.transform.position.z ), Quaternion.Euler(0, 0, 0));
+
+        spawnCounter++;
+
+        //difficulty increase
+        //PlayerController.moveSpeed++;
+        //PlayerController.rotSpeed += 10; 
     }
 }
