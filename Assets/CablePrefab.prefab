@@ -27,7 +27,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1922517292467244
 GameObject:
   m_ObjectHideFlags: 0
@@ -39,9 +39,9 @@ GameObject:
   - component: {fileID: 33123999432287132}
   - component: {fileID: 136748224093952910}
   - component: {fileID: 23754432074182012}
-  - component: {fileID: 54245066149646456}
+  - component: {fileID: 54184719172278212}
   m_Layer: 0
-  m_Name: Cable
+  m_Name: CablePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,7 +115,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1922517292467244}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!54 &54245066149646456
+--- !u!54 &54184719172278212
 Rigidbody:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -141,7 +141,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1.8, y: 0.5, z: 1.8}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0, z: -1.1}
 --- !u!114 &114395451918555106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -153,10 +153,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97f7608725ea74e42a5a43785b77f8b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  centerNodePoint: {x: 0, y: 0, z: 0}
-  nodePoint1: {x: 0, y: 0, z: 0}
-  nodePoint2: {x: 0, y: 0, z: 0}
-  nodePoint3: {x: 0, y: 0, z: 0}
+  nodePoint1: {fileID: 0}
+  nodePoint2: {fileID: 0}
+  nodePoint3: {fileID: 0}
   singleCable1: {fileID: 4359954131788244}
 --- !u!136 &136748224093952910
 CapsuleCollider:
