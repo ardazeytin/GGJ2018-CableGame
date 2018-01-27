@@ -67,6 +67,14 @@ MonoBehaviour:
   nodePoint1: {fileID: 0}
   nodePoint2: {fileID: 0}
   nodePoint3: {fileID: 0}
-  singleCable1: {fileID: 1922517292467244, guid: c8dc2fc490b7e0843a717b0a03ca2adb,
+  singleCable1: {fileID: 1247035357827284, guid: 475dccbd0c4c3624ea5ac1def84fc99e,
+    type: 2}
+  singleCable2: {fileID: 1959015884390520, guid: d90372cb1b760ff49bbfec0b43328fb7,
+    type: 2}
+  singleCable3: {fileID: 1779881095464888, guid: d9d80dc3956bf5043a74e37d0841f2fa,
+    type: 2}
+  singleCable4: {fileID: 1176407969342588, guid: b21151e60a3665644b5e74e6bfea755c,
+    type: 2}
+  singleCable5: {fileID: 1968140825423210, guid: 90db9f297e9746d4cb82d8e79e96c973,
     type: 2}
   hitBox: {fileID: 1644119652286196}
