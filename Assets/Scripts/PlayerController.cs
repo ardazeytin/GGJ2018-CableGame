@@ -6,11 +6,12 @@ public class PlayerController : MonoBehaviour {
 
     public float rotSpeed;
     public float moveSpeed;
+    private GameObject mainCamera;
 
-	void Start ()
+    void Start ()
     {
-		
-	}
+        mainCamera = Camera.main.gameObject;
+    }
 	
 	void Update ()
     {
@@ -23,6 +24,11 @@ public class PlayerController : MonoBehaviour {
 
         //Draw line from electron parent
         Debug.DrawRay(transform.position + transform.forward, transform.forward * 3, Color.red);
+    }
+
+    void LateUpdate()
+    {
+        mainCamera.transform.position = new Vector3(0, 9, gameObject.transform.position.z - 8);
     }
 
     //if ray hit a node, jump on

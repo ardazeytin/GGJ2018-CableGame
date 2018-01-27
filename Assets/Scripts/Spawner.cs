@@ -20,18 +20,9 @@ public class Spawner : MonoBehaviour {
 
     void Start ()
     {
-        //centerNodePoint = new Vector3(0, 0, 0);
-        //nodePoint1 = new Vector3(-1, 1, 0); //top left
-        //nodePoint2 = new Vector3(1, 1, 0); //top right
-        //nodePoint3 = new Vector3(0, -1, 0); //bottom center
 
     }
 	
-	// Update is called once per frame
-	void Update ()
-    {
-		
-	}
 
     private void OnTriggerEnter(Collider other)
     {
